@@ -655,18 +655,20 @@ hr {
     transform: rotate(90deg);
     width: 15%;
     margin-top: 150px;
-    margin-left: -80px;
+    margin-left: -20px;
   }
 
   .contOne {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+
+    justify-content: center;
   }
 
   #about-me {
     width: 50%;
     margin-top: 100px;
-    margin-left: -80px;
+    margin-left: -40px;
   }
 
   #story {
